@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+.hidden{
+
+	display: none;
+}
+
+
+*{
+	margin: 0; 
+	padding: 0; 	
+}
+
+
+
+
+p
+{
+	color: #fff;
+	line-height: 10px;
+	background: #4f3b38;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img 
+{ 
+	border: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+
+body 
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #e5e1d8;
+}
+
+
+
+
+a:link, a:visited 
+{ 
+ 	text-decoration:none; 	
+}
+
+a:hover, a:active 
+{ 
+	text-decoration:none; 
+}
+
+
+
+.hidden
+{
+	display: none;
+}
+
+
+
+
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #9c6f69;
+}
+
+
+#mainHeader
+{
+	height: 150px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	background-color: #e5e1d8;
+	align-items: center;
+	border-top: solid 10px #c9c1b0;
+	border-bottom: solid 10px #c9c1b0;
+	border-left: solid 10px #c9c1b0;
+	border-right: solid 10px #c9c1b0;
+}
+
+
+#logo
+{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+
+#mainNav 
+{
+	
+	width: 500px;
+	height:70px;
+	margin-top: 100px;
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+
+
+
+#mainNav ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+#mainNav ul li
+{
+	font-size: 24px;
+	display: inline;
+}
+
+#mainNav ul li a
+{
+	color:#4f3b38;
+	padding: 10px;
+}
+
+#mainNav ul li a:hover
+{
+	color: #9c6f69;
+
+
+}
+
+
+
+
+
+#promo 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+
+
+#promoText 
+{
+	margin: auto;
+	background-color: #9c6f69;
+}
+
+#promoImage 
+{
+	margin-left: auto;
+	width: 280px;
+}
+
+#productInfo 
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+}
+
+
+#productInfo p 
+{
+	line-height: 30px;
+}
+
+.productDesc 
+{
+	width: 200px;
+}
+
+#mainFooter 
+{
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	background-color: #e5e1d8;
+	justify-content: space-between;
+	border-top: solid 10px #c9c1b0;
+	border-bottom: solid 10px #c9c1b0;
+	border-left: solid 10px #c9c1b0;
+	border-right: solid 10px #c9c1b0;
+	align-items: center;
+	height: 150px;
+}
+
+#footerNav 
+{
+	width: 400px;
+}
+
+#copyright
+{
+	font-size: 10px;
+	color: #4f3b38;
+	margin-left: auto;
+	margin-top: 20px;
+	font-style: italic;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 150px;
+
+}
+
+
+
+
+#contentArea 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+
+#contentArea p 
+{
+	line-height: 630px;
+	font-size: 18px;
+	line-height: 20px;
+	padding-bottom: 0px;
+	margin-top: 10px;
+}
+
+#contentArea h2 
+{
+	font-size: 30px;
+	color: #e5e1d8;
+	margin: 0px;
+}
+
+#contentArea h3 
+{
+	font-size: 20px;
+	color: #fff;
+	margin: 42px 0px 0px 0px;
+	font-weight: bold;
+
+}
+
+
+
+#content1 
+{
+	width: 440px;
+	width: 408px;
+	padding-right: 25px;
+	padding-left: 25px;
+	background-color: #4f3b38;
+}
+
+
+
+#form label
+{
+	font-size: 20px;
+	color: #fff; 
+	font-weight: bold;
+}
+#form input 
+{ 
+	font-size: 16px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 350px;
+	height: 20px;
+	background-color: #c9c1b0;
+	display: block;
+	border: 2px solid #9c6f69;
+	color: #fff;
+}
+
+#form textarea 
+{ 
+	font-size: 20px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 400px;
+	height: 150px;
+	background-color: #c9c1b0;
+	display: block;
+	border: 2px solid #9c6f69;
+	color: #fff;
+}
+
+
+.submit
+{ 
+	font-size: 10px;
+	width: 30px;
+	height: 70px;
+	background-color: #9c6f69;
+	border: 5px solid #9c6f69;
+	color: #424242;
+	font-weight: bold;
+}
+
+#content2 
+{
+	margin-left: auto;
+	width: 440px;
+	background-color: #4f3b38;
+	
+}
+
+#content2 a 
+{ 
+	color: #fff;
+	font-size: 20px;
+	margin: 0px 0px 0px 103px;
+}
+
+#content2 a:hover 
+{  
+	color: #9c6f69;
+}
+
+
+
+
+
+
+
+
+
+
+
